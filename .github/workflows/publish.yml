@@ -24,4 +24,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Publish gh-page
-        run: invoke gh-pages
+        run: |
+          git config user.name 'GitHub Actions'
+          git config user.email github-actions@github.com
+          invoke gh-pages
