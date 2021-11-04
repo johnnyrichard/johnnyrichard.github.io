@@ -1,0 +1,31 @@
+.published {
+    color: grey;
+}
+
+:root {
+  color-scheme: light dark; /* both supported */
+}
+
+body {
+    font-family: JetBrains Mono, monospace;
+    font-size: 16px;
+}
+
+#main {
+    margin: auto;
+    min-height: 100vh;
+    max-width: 820px;
+}
+
+#post-list h3 {
+    margin: 0.5vh 0;
+}
+
+.highlight pre {
+    padding: 1vh;
+}
+
+.banner a {
+    color: #000000;
+    text-decoration: none;
+}
