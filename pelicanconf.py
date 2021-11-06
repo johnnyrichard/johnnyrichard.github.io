@@ -16,19 +16,20 @@ EXTRA_PATH_METADATA = {
 
 DISPLAY_CATEGORIES_ON_MENU = False
 
-ARTICLE_URL = '{lang}/posts/{date:%Y}/{date:%m}/{date:%d}/{slug}'
-ARTICLE_SAVE_AS = '{lang}/posts/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
+ARTICLE_URL = '{lang}/posts/{date:%Y}/{date:%m}/{slug}'
+ARTICLE_SAVE_AS = '{lang}/posts/{date:%Y}/{date:%m}/{slug}.html'
 
-ARTICLE_LANG_URL = '{lang}/posts/{date:%Y}/{date:%m}/{date:%d}/{slug}'
-ARTICLE_LANG_SAVE_AS = '{lang}/posts/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
+ARTICLE_LANG_URL = '{lang}/posts/{date:%Y}/{date:%m}/{slug}'
+ARTICLE_LANG_SAVE_AS = '{lang}/posts/{date:%Y}/{date:%m}/{slug}.html'
 
 TRANSLATION_FEED_ATOM = '{lang}/feeds/atom.xml'
 
 AUTHOR_SAVE_AS = '' 
 CATEGORY_SAVE_AS = ''
 
-MENUITEMS = [('github', 'https://github.com/johnnyrichard'),
-             ('email', 'mailto:johnny@johnnyrichard.com'),
+MENUITEMS = [('sourcehut', 'https://sr.ht/~johnnyrichard/'),
+             ('github', 'https://github.com/johnnyrichard'),
+             ('email', 'mailto:~johnnyrichard/public-inbox@lists.sr.ht'),
              ('rss', '/en/feeds/atom.xml'),]
 
 FEED_MAX_ITEMS = 15
