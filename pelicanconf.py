@@ -1,6 +1,6 @@
 AUTHOR = 'Johnny Richard'
 SITENAME = "Johnny Richard's blog"
-SITEURL = ''
+SITEURL = 'https://johnnyrichard.com'
 
 PATH = 'content'
 THEME = 'themes/cristal'
