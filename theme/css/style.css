@@ -2,9 +2,11 @@
     color: grey;
 }
 
+/*
 :root {
-  color-scheme: light dark; /* both supported */
+  color-scheme: light dark;
 }
+*/
 
 body {
     font-family: monospace;
