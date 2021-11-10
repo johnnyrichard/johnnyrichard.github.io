@@ -34,12 +34,12 @@
         {% endblock head %}
 </head>
 
-<body id="index" class="home">
+<body>
     <div id="main">
         <header class="banner">
             <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
         </header>
-        <nav id="menu">
+        <nav>
             {% for title, link in MENUITEMS %}
             {% if loop.index != 1 %} | {% endif %}
             <a href="{{ link }}">{{ title }}</a>
