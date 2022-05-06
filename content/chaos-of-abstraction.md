@@ -58,7 +58,7 @@ Jonathan Blow, which explains very well this problem.
 ---
 
 Have comments? Send me an email to my [public-inbox](mailto:~johnnyrichard/public-inbox@lists.sr.ht)
-and let's begin a discussion. :^) ([mailing list etiquette](https://man.sr.ht/lists.sr.ht/etiquette.md).)
+and let's begin a discussion. :^) ([mailing list etiquette](https://man.sr.ht/lists.sr.ht/etiquette.md))
 
 [^1]: Language server protocol https://microsoft.github.io/language-server-protocol/
 [^2]: Jonathan Blow - Preventing the Collapse of Civilization: https://www.youtube.com/watch?v=pW-SOdj4Kkk
