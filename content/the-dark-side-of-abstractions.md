@@ -1,6 +1,6 @@
 Title: The dark side of abstractions
-Date: 2022-05-03 10:20
-Modified: 2012-05-03 19:30
+Date: 2022-05-06 23:00
+Modified: 2012-05-06 23:20
 Summary: The dark side of abstractions
 
 After a long time, I finally decided to write something here. If you found this
