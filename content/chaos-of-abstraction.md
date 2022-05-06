@@ -30,7 +30,7 @@ Have you ever meet developers with the following characteristics?
 - ReactJS programmers who do not know JavaScript
 - Docker images managed by professionals that never had run Linux
 
-It is very common now a days, and the result of these practice is faulty
+It is very common now a days, and the result of these practice are faulty
 programs. Try to count the amount of bugs you've faced during 1 day. You will
 be surprised.
 
@@ -44,10 +44,10 @@ Maybe no one cares since everyone get well paid, until some real problem
 appears.
 
 So, if you are someone who suffers of imposter syndrome and feels like know
-nothing about software, my advice is LEARN YOUR TOOL. Be pragmatic about it.
-If you are using *git* to versioning your source code, you need understand
-the git internals, if you are a web developer, you need to understand how
-sockets, TCP, HTTP works. If someday something goes wrong with your brand new
+nothing about software, my advice is LEARN YOUR TOOL. Be pragmatic about it. If
+you are using *git* to versioning your source code, you need to understand the
+git internals, if you are a web developer, you need at least to understand how
+sockets, TCP, HTTP works. If something goes wrong with your brand new
 framework, you will understand the problems and limitations because you know
 how computer works.
 
@@ -57,7 +57,7 @@ Jonathan Blow, which explains very well this problem.
 
 ---
 
-Have comments? Send me an email to my [public-inbox](mailto:~johnnyrichard/public-inbox@lists.sr.ht)
+Have comments? Send an email to my [public-inbox](mailto:~johnnyrichard/public-inbox@lists.sr.ht)
 and let's begin a discussion. :^) ([mailing list etiquette](https://man.sr.ht/lists.sr.ht/etiquette.md))
 
 [^1]: Language server protocol https://microsoft.github.io/language-server-protocol/
