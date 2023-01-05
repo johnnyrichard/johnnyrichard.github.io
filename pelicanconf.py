@@ -27,9 +27,10 @@ TRANSLATION_FEED_ATOM = '{lang}/feeds/atom.xml'
 AUTHOR_SAVE_AS = '' 
 CATEGORY_SAVE_AS = ''
 
-MENUITEMS = [('sourcehut', 'https://sr.ht/~johnnyrichard/'),
+MENUITEMS = [('email', 'mailto:johnny@johnnyrichard.com'),
+             ('mailling lists', 'http://lists.johnnyrichard.com'),
+             ('git', 'http://git.johnnyrichard.com'),
              ('github', 'https://github.com/johnnyrichard'),
-             ('email', 'mailto:~johnnyrichard/public-inbox@lists.sr.ht'),
              ('rss', '/en/feeds/atom.xml'),]
 
 FEED_MAX_ITEMS = 15
