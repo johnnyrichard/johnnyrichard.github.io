@@ -9,7 +9,7 @@ DEFAULT_LANG = 'en'
 TIMEZONE = 'Europe/Stockholm'
 DEFAULT_DATE_FORMAT = ('%Y-%m-%d')
 
-STATIC_PATHS = ['static/CNAME']
+STATIC_PATHS = ['static']
 EXTRA_PATH_METADATA = {
     'static/CNAME': {'path': 'CNAME'},
 }
@@ -28,6 +28,7 @@ AUTHOR_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 
 MENUITEMS = [('email', 'mailto:johnny@johnnyrichard.com'),
+             ('pgp', '/static/johnnyrichard.pubkey.asc'),
              ('mailling lists', 'http://lists.johnnyrichard.com'),
              ('git', 'http://git.johnnyrichard.com'),
              ('github', 'https://github.com/johnnyrichard'),
