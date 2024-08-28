@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Johnny Richard's blog - misc</title><link href="https://johnnyrichard.com/" rel="alternate"></link><link href="https://johnnyrichard.com/feeds/misc.atom.xml" rel="self"></link><id>https://johnnyrichard.com/</id><updated>2022-05-06T23:00:00+02:00</updated><entry><title>The dark side of abstractions</title><link href="https://johnnyrichard.com/en/posts/2022/05/the-dark-side-of-abstractions" rel="alternate"></link><published>2022-05-06T23:00:00+02:00</published><updated>2012-05-06T23:20:00+02:00</updated><author><name>Johnny Richard</name></author><id>tag:johnnyrichard.com,2022-05-06:/en/posts/2022/05/the-dark-side-of-abstractions</id><summary type="html">&lt;p&gt;The dark side of abstractions&lt;/p&gt;</summary><content type="html">&lt;p&gt;After a long time, I finally decided to write something here. If you found this
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Johnny Richard's blog - misc</title><link href="https://johnnyrichard.com/" rel="alternate"></link><link href="https://johnnyrichard.com/feeds/misc.atom.xml" rel="self"></link><id>https://johnnyrichard.com/</id><updated>2024-08-28T17:00:00+02:00</updated><entry><title>The dark side of abstractions</title><link href="https://johnnyrichard.com/en/posts/2022/05/the-dark-side-of-abstractions" rel="alternate"></link><published>2022-05-06T23:00:00+02:00</published><updated>2024-08-28T17:00:00+02:00</updated><author><name>Johnny Richard</name></author><id>tag:johnnyrichard.com,2022-05-06:/en/posts/2022/05/the-dark-side-of-abstractions</id><summary type="html">&lt;p&gt;The dark side of abstractions&lt;/p&gt;</summary><content type="html">&lt;p&gt;After a long time, I finally decided to write something here. If you found this
 blog probably you are a developer or you are someone who loves programming.
 Most of the content will be about software, so if you don't like it, feel free
 to find something else interesting on the internet. :^)&lt;/p&gt;
@@ -14,44 +14,16 @@ the developers become more "productive".&lt;/p&gt;
 &lt;p&gt;Don't get me wrong, I'm not against abstractions, they are really good, but
 maybe we went too far, and the cost now is very high. Fragile software and
 developers that don't know what they are doing are consequences.&lt;/p&gt;
-&lt;p&gt;Have you ever meet developers with the following characteristics?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ruby On Rails developers that doesn't know Ruby&lt;/li&gt;
-&lt;li&gt;ReactJS programmers who do not know JavaScript&lt;/li&gt;
-&lt;li&gt;Docker images managed by professionals that never had run Linux&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It is very common nowadays, and the result of these practices are faulty
-programs. Try to count the amount of bugs you've faced during 1 day. You will
-be surprised.&lt;/p&gt;
-&lt;p&gt;During a conference I saw a person suffering with a text editor running in a
-browser engine with autocompletion done by a &lt;strong&gt;TCP server&lt;/strong&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; (You know which
-text editor I'm talking about). In an attempt of showing off a tool, this
-person failed because the autocomplete feature was not working (looks like no
-one reads docs anymore).&lt;/p&gt;
-&lt;p&gt;Maybe no one cares since everyone gets well paid, until some real problem
-appears.&lt;/p&gt;
 &lt;p&gt;So, if you are someone who suffers of imposter syndrome and feel like you know
-nothing about software, my advice is LEARN YOUR TOOL. Be pragmatic about it. If
-you are using &lt;em&gt;git&lt;/em&gt; to versioning your source code, you need to understand the
-git internals, if you are a web developer, you need at least to understand how
-sockets, TCP, HTTP works. If something goes wrong with your brand new
-framework, you will understand the problems and limitations because you know
-how computers works.&lt;/p&gt;
-&lt;p&gt;If you want to understand better what I've tried to say in this post, I would
-recommend you to watch a awesome talk&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; titled &lt;em&gt;Preventing the Collapse of
-Civilization&lt;/em&gt; (unfortunately on YouTube) by Jonathan Blow, which explains very
-well this problem.&lt;/p&gt;
+nothing about software, my advice is LEARN YOUR TOOL. Be pragmatic about it.&lt;/p&gt;
+&lt;p&gt;If you want to understand better what I am trying to say here, I recommend you
+to watch a Johathan Blow's talk&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; that explains better my point.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Have comments? Send an email to my &lt;a href="mailto:~johnnyrichard/public-inbox@lists.sr.ht"&gt;public-inbox&lt;/a&gt;
-and let's begin a discussion. :^) (&lt;a href="https://man.sr.ht/lists.sr.ht/etiquette.md"&gt;mailing list etiquette&lt;/a&gt;)&lt;/p&gt;
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
-&lt;p&gt;Language server protocol https://microsoft.github.io/language-server-protocol/&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:2"&gt;
-&lt;p&gt;Jonathan Blow - Preventing the Collapse of Civilization: https://www.youtube.com/watch?v=pW-SOdj4Kkk&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jonathan Blow - Preventing the Collapse of Civilization: https://www.youtube.com/watch?v=pW-SOdj4Kkk&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content><category term="misc"></category></entry></feed>
