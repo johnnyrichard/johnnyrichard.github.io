@@ -1,6 +1,6 @@
 Title: The dark side of abstractions
 Date: 2022-05-06 23:00
-Modified: 2012-05-06 23:20
+Modified: 2024-08-28 17:00
 Summary: The dark side of abstractions
 
 After a long time, I finally decided to write something here. If you found this
@@ -23,43 +23,11 @@ Don't get me wrong, I'm not against abstractions, they are really good, but
 maybe we went too far, and the cost now is very high. Fragile software and
 developers that don't know what they are doing are consequences.
 
-Have you ever meet developers with the following characteristics?
-
-- Ruby On Rails developers that doesn't know Ruby
-- ReactJS programmers who do not know JavaScript
-- Docker images managed by professionals that never had run Linux
-
-It is very common nowadays, and the result of these practices are faulty
-programs. Try to count the amount of bugs you've faced during 1 day. You will
-be surprised.
-
-During a conference I saw a person suffering with a text editor running in a
-browser engine with autocompletion done by a **TCP server**[^1] (You know which
-text editor I'm talking about). In an attempt of showing off a tool, this
-person failed because the autocomplete feature was not working (looks like no
-one reads docs anymore).
-
-Maybe no one cares since everyone gets well paid, until some real problem
-appears.
-
 So, if you are someone who suffers of imposter syndrome and feel like you know
-nothing about software, my advice is LEARN YOUR TOOL. Be pragmatic about it. If
-you are using *git* to versioning your source code, you need to understand the
-git internals, if you are a web developer, you need at least to understand how
-sockets, TCP, HTTP works. If something goes wrong with your brand new
-framework, you will understand the problems and limitations because you know
-how computers works.
+nothing about software, my advice is LEARN YOUR TOOL. Be pragmatic about it.
 
-If you want to understand better what I've tried to say in this post, I would
-recommend you to watch a awesome talk[^2] titled *Preventing the Collapse of
-Civilization* (unfortunately on YouTube) by Jonathan Blow, which explains very
-well this problem.
+If you want to understand better what I am trying to say here, I recommend you
+to watch a Johathan Blow's talk[^1] that explains better my point.
 
----
-
-Have comments? Send an email to my [public-inbox](mailto:~johnnyrichard/public-inbox@lists.sr.ht)
-and let's begin a discussion. :^) ([mailing list etiquette](https://man.sr.ht/lists.sr.ht/etiquette.md))
-
-[^1]: Language server protocol https://microsoft.github.io/language-server-protocol/
-[^2]: Jonathan Blow - Preventing the Collapse of Civilization: https://www.youtube.com/watch?v=pW-SOdj4Kkk
+[^1]: Jonathan Blow - Preventing the Collapse of Civilization: https://www.youtube.com/watch?v=pW-SOdj4Kkk
 
